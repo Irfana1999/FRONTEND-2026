@@ -37,4 +37,94 @@ GROUP TOGETHER
 SPAN---> INLINE CONTAINER TO GROUP ELEMENTS FOR STYLING
 DIV---> BLOCK LEVEL CONTAINER TO GROUP ELEMENTS FOR STYLING
 
+shadows
+
+MARGINS
+
+FLOAT - ALLOWS OTHER ELEMENT TO FLOW AROUND IT
+
+
+OVERFLOW = PROPERTY THAT SETS THE  DESIRED BEHAVIOUR WHEN CONTEN NOT FIT IN THE PARENT ELEMENT/BOX (OVERFLOW)
+
+VISIBLE 
+HIDDEN
+SCROLL
+AUTO
+
+DISPLAY - PROPERTY SPECIFY IF/HOW AN ELEMENT IS DISPLAYED
+
+BLOCK-LEVEL - START O  A NEW  LINE .TAKE UP THE FULL WIDTH OF THE AVAILABLE SPACE
+(hi,div,p,form,header,footer)
+
+INLINE - LEVEL - do not start from new line ,width is limited to what is needed(span ,a,img,etc..,)
+
+git add .
+git commit -m "fourth commit"
+git push
+
+height and width
+
+POSITIONS 
+
+    RELATIVE - POSITIONED RELATIVE TO WHERE IT NORMALLY IS
+
+    FIXED- POSITION RELATIVE TO THE VIEW PORT
+
+    ABSOLUTE- POSITION RELATIVE TO THE NEAREST ANCESTOR
+
+    STICKY- POSITION BASED ON THE SCROL POSITION
+
+    STATIC- DEFAULT POSITION FOR AN ELEMENT
+
+
+    ASSIGNMENT 
+
+    1 BOX 5 DIV  IN CORNER
+
+    combinators = EXPLAINS THE RELATIONSHIP BETWEEN THE LISTED SELECTORS
+
+    SPACE=DECESDENT 
+    > - CHILD
+    + - adjacent sibling
+
+pseudo classes -  keep one colon
+
+pseudo ELEMENT - keep 2 colon 
+
+pseudo
+    
+pagination 
+
+dropdown
+
+grid 
+
+flex box
+
+transformations
+
+Animations
+
+Javascript - It is a Programming language, Browser scripting Language 
+
+variables - a container that stores a value - behaves as if it is 
+
+
+let - commonly used like global variable 
+
+declaration let a;
+
+
+pascal - project,class,constructors - every word first letter must be capital 
+Sceintifi_Calculator
+
+camel - methods,object,variables - except first words remaining words 1st letter must be in capital letter and  1st  word 1st word must be in small
+
+
+arithmetic operators = 
+
+
+let result = 1+2  
+
+type conversion - change a datatype of value 
 

@@ -1,0 +1,315 @@
+body{
+    background-color: white;
+}
+h1{
+    color: red;
+}
+p{
+    color:black;
+}
+#p1{
+    color: red;
+}
+#p2{
+    color: aqua;
+}
+#p3{
+    color: beige;
+}
+#p4{
+    color: yellow;
+}
+.odd{
+    color: red;
+}
+.even{
+    color: gold;
+}
+#h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+/*font-size:50px;
+font-size:10%;
+font-size:1cm;
+font-weight:intalic;*/
+}
+h1 {
+     border-style: solid;
+    border-width: 10px;
+    border-color: blueviolet;  
+    border:  solid 5px red;
+    border-radius: 5px;
+} 
+#p1 {
+    border-bottom: 3px solid yellow;
+    border-left: 3px dotted yellowgreen;
+    border-right: 3px dashed yellowgreen;
+   
+} 
+
+h1 {
+    text-shadow: 3px 3px 2px yellow , -3px -3px 2px yellow ;
+}
+/*#box1 {
+    width: 100px;
+    height: 100px;
+    background-color: lightgrey;
+    box-shadow: 3px 3px 5px red;
+}
+body{
+    margin: 0px;
+}
+/*.box {
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+   
+     margin: 50px auto;
+}
+#box1 {
+    background-color: lightcoral;
+    /*margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px; 
+}
+#box2 {
+    background-color: lightgreen;
+    
+} 
+body {
+    border: 3px solid;
+    display: flow-root;
+
+}
+
+
+.box{
+    border: 2px solid;
+    padding: 25px;
+    box-sizing: border-box;
+    height: auto;
+    width: 50px;
+    float: right;
+    text-align: center;
+    max-width: 50%;
+    min-width: 50%;
+
+}*/
+/*#atag:hover{
+    color: red;
+    font-size: 1.1cm;
+}
+
+#atag:active{
+    color: red;
+    font-size: 1.1cm;
+
+}
+#atag:visited{
+    color: blue;
+    font-size: 1.1cm;
+}
+li:hover{
+    background-color: yellow;
+}
+li:not(:hover){
+    background-color: lightgreen;
+}
+li:nth-child(4n+1){
+    background-color: red;
+}
+#hello p {
+    background-color: lightsalmon;
+    padding: 10px;
+    display: none;
+}
+ #hello:hover p{
+    display: block;
+ }
+ h1::first-letter{
+    font-size: 2cm;
+    font-style: italic;
+ }
+ p::first-line{
+    background-color: lightgreen;
+ }
+ p::selection{
+    color: white;
+    background-color: red;
+ }
+ #fruit li::before{
+
+ }
+ #apple::after{
+    content: "🍎";
+ }
+ #orange::after{
+    content: "🍊";
+ }
+ #banana::after{
+    content: "🍌";
+ }
+ #Pineapple::after{
+    content: "🍍";
+ }
+ #fruit li::marker{
+    content: "✔️";
+ }*/
+
+ .pagination {
+    text-align: center;
+
+}
+
+.pagination a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+
+}
+
+
+.pagination a.active {
+    background-color: lightgreen;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: gray;
+    border-radius: 4px;
+} 
+
+/*.dropdown{
+    display: inline-block;
+}
+
+.dropdown button{
+    background-color: lightblue;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration:none ;
+    padding: 10px 15px;
+}
+
+.dropdown :content{
+    position: absolute;
+    background-color: lightseagreen;
+    min-width: 100px;
+    box-shadow: 2px 2px 2px green;
+
+}
+.dropdown :hover button{
+    background-color: blueviolet;
+}
+.dropdown a.hover{
+    background-color: blue;
+}
+.gallery {
+    display: inline-block;
+    border: 1px solid darkgrey;
+    margin: 5px;
+}
+.gallery  .description{
+    padding: 10px;
+    text-align: center;
+}
+.gallery img{
+
+}*/
+
+/*.container{
+    display: flex;
+    border: 10px solid;
+    height: 90vh;
+    flex-direction: column;
+
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    justify-content: center;*/
+    /*justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items:center ;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    align-content: flex-start;
+    align-content: flex-end;
+
+column-gap: 1em;
+row-gap: 1em;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 5px;
+ }
+
+ #box1 {
+    background-color: lightblue;
+ }
+ #box2 {
+    background-color: lightgreen;
+ }
+ #box3 {
+    background-color: lightsalmon;
+ }
+ #box4 {
+    background-color: lightpink;
+ }
+
+ #box1{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13cm;
+    text-align: center;
+    background-color: lightgreen;
+
+    transform: translate(50px,50px);
+    transform:rotateX(180deg) ;
+    transform: scaleY(2);
+ }*/
+#box{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    background-color: lightgreen;
+    animation-name:fade ;
+    animation-duration: 35;
+}
+@keyframes slideleft{
+    from{transform:translatex(300px);}
+}
+@keyframes slideright{
+    to{transform: translateX(400px);}
+}
+@keyframes slideUp{
+
+}
+@keyframes slidedown{
+    from{transform: ;}
+}
+@keyframes grow{
+
+}*/
+@keyframes fade{
+    100%{opacity:0;}
+}
