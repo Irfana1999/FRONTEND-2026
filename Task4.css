@@ -1,0 +1,35 @@
+.container{
+    height: 300px;
+    width: 500px;
+    margin: 250px;
+    border: 2px black;
+    box-shadow: 0px 4px 10px grey;
+    border-radius: 5px;
+}
+
+.header{
+    background-color: blue;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.header img{
+    padding: 30px;
+    height: 90px;
+    width: 100px;
+    border-radius: 100px;
+}
+
+.body{
+    padding-top: 50px;
+    padding-left: 15px;
+}
+
+hr{
+    align-items: center;
+}
+
+.footer{
+    padding-top: 20px;
+    text-align: center;
+}
